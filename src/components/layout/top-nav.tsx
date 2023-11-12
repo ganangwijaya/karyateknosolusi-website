@@ -36,7 +36,7 @@ export default function TopNav() {
           alt="Logo Karya Tekno Solusi"
           width={30}
           height={30}
-          style={{ width: "auto", height: "auto" }}
+          style={{ width: "30px", height: "auto" }}
           src={logoImageUrl}
         />
         <span className="font-bold">Karya Tekno Solusi</span>
