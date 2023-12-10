@@ -2,7 +2,7 @@ import TopNav from "@/components/layout/top-nav";
 import { Button } from "@/components/ui/button";
 
 import { GridPattern } from "@/components/global-custom/pattern";
-import OurProductssSection from "@/components/sections/home/our-products";
+import OurProductsSection from "@/components/sections/home/our-products";
 import OurServicesSection from "@/components/sections/home/our-services";
 import ResourcesSection from "@/components/sections/home/resources";
 import { cn } from "@/lib/utils";
@@ -68,7 +68,7 @@ export default function Home() {
         </section>
         <OurServicesSection />
         <ResourcesSection />
-        <OurProductssSection />
+        <OurProductsSection />
         <CTAFooter />
       </main>
       <footer className="container mx-auto text-center p-4 text-sm">

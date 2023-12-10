@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ModeToggle } from "./dark-theme-switch";
 import { useTheme } from "next-themes";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function TopNav() {
   const { theme, systemTheme } = useTheme();
@@ -31,7 +32,7 @@ export default function TopNav() {
 
   return (
     <header className="w-full container mx-auto flex justify-between items-center gap-3 py-6">
-      <div className="flex gap-4 items-center">
+      <Link href={"/"} className="flex gap-4 items-center">
         <Image
           alt="Logo Karya Tekno Solusi"
           width={30}
@@ -40,8 +41,17 @@ export default function TopNav() {
           src={logoImageUrl}
         />
         <span className="font-bold">Karya Tekno Solusi</span>
-      </div>
+      </Link>
       <div className="flex gap-4">
+        <Button
+          variant={"link"}
+          className="hidden text-xs font-bold md:flex "
+          size="sm"
+          title="Email: info@karyateknosolusi.com"
+          asChild
+        >
+          <Link href={"/services"}>Services</Link>
+        </Button>
         <Button
           className="hidden text-xs font-bold md:flex "
           size="sm"

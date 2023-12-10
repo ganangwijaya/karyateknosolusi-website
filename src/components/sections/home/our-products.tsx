@@ -35,7 +35,7 @@ const servicesData = [
   },
 ];
 
-export default function OurProductssSection() {
+export default function OurProductsSection() {
   const cardsRef = useRef<Array<HTMLDivElement | null>>([]);
 
   const onMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
