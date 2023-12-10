@@ -42,7 +42,12 @@ export default function TopNav() {
         <span className="font-bold">Karya Tekno Solusi</span>
       </div>
       <div className="flex gap-4">
-        <Button size="sm" title="Email: info@karyateknosolusi.com" asChild>
+        <Button
+          className="hidden text-xs font-bold md:flex "
+          size="sm"
+          title="Email: info@karyateknosolusi.com"
+          asChild
+        >
           <a href="mailto:info@karyateknosolusi.com">Contact Us</a>
         </Button>
         <ModeToggle />

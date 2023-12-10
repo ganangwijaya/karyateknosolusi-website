@@ -70,6 +70,12 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        "radial-follow":
+          "radial-gradient(800px circle at var(--cursorX) var(--cursorY), rgba(253, 188, 90, 0.06), transparent 40%)",
+        "radial-follow-border":
+          "radial-gradient(400px circle at var(--cursorX) var(--cursorY), rgba(253, 188, 90, 0.6) ,transparent 40%)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
