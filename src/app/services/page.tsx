@@ -5,7 +5,7 @@ import CTAFooter from "@/components/sections/home/cta-footer";
 import ServicesDetails from "@/components/sections/services/details";
 import Image from "next/image";
 
-export default function Home() {
+export default function ServicesDetailsPage() {
   return (
     <>
       <div className="relative isolate -z-10">
