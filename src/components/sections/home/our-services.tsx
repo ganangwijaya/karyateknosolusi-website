@@ -67,7 +67,7 @@ export default function OurServicesSection() {
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           We specialize in delivering tailored services to meet the diverse
-          needs of our clients. Our service offerings include:
+          needs of our clients. Our service offerings include,
         </p>
       </div>
       <div
@@ -80,10 +80,10 @@ export default function OurServicesSection() {
             className="p-0 m-0 groupcontent relative"
             ref={(element) => (cardsRef.current[i] = element)}
           >
-            <Link href={`/services#${service.id}`}>
-              <CardOverlay />
-              <CardOverlayBorder />
-              <div className="bg-card text-card-foreground h-[calc(100%-2px)] w-[calc(100%-2px)] [border-radius:inherit] m-[1px] mt-[1.2px] z-[2] relative">
+            <CardOverlay />
+            <CardOverlayBorder />
+            <div className="bg-card text-card-foreground h-[calc(100%-2px)] w-[calc(100%-2px)] [border-radius:inherit] m-[1px] mt-[1.2px] z-[2] relative">
+              <Link href={`/services#${service.id}`}>
                 <CardHeader className="flex items-center justify-center h-52 mb-6">
                   <div
                     className={cn(
@@ -100,8 +100,8 @@ export default function OurServicesSection() {
                     {service.description}
                   </CardDescription>
                 </CardContent>
-              </div>
-            </Link>
+              </Link>
+            </div>
           </Card>
         ))}
       </div>

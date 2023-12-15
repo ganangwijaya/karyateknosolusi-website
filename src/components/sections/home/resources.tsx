@@ -65,7 +65,7 @@ export default function ResourcesSection() {
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           Our team comprises skilled professionals dedicated to delivering
-          excellence in various domains
+          excellence in various domains.
         </p>
       </div>
       <div

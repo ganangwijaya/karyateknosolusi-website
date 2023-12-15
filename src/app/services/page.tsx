@@ -45,8 +45,8 @@ export default function ServicesDetailsPage() {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(720 983) rotate(90) scale(555.047 624.107)"
             >
-              <stop stop-color="#FDBB58" stop-opacity="0.22" />
-              <stop offset="1" stop-color="#FDBB58" stop-opacity="0" />
+              <stop stopColor="#FDBB58" stopOpacity="0.22" />
+              <stop offset="1" stopColor="#FDBB58" stopOpacity="0" />
             </radialGradient>
           </defs>
         </svg>
@@ -66,7 +66,7 @@ export default function ServicesDetailsPage() {
           <rect
             width="100%"
             height="100%"
-            stroke-width="0"
+            strokeWidth="0"
             fill="url(#hero)"
           ></rect>
         </svg>

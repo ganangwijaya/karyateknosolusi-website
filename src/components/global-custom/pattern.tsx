@@ -13,12 +13,7 @@ export const GridPattern = () => {
           <path d="M.5 200V.5H200" fill="none"></path>
         </pattern>
       </defs>
-      <rect
-        width="100%"
-        height="100%"
-        stroke-width="0"
-        fill="url(#hero)"
-      ></rect>
+      <rect width="100%" height="100%" strokeWidth="0" fill="url(#hero)"></rect>
     </svg>
   );
 };

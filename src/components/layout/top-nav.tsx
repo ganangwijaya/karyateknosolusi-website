@@ -35,7 +35,7 @@ export default function TopNav() {
       <Link href={"/"} className="flex gap-4 items-center">
         <Image
           alt="Logo Karya Tekno Solusi"
-          width={30}
+          width={"30"}
           height={30}
           style={{ width: "30px", height: "auto" }}
           src={logoImageUrl}

@@ -8,6 +8,7 @@ import ResourcesSection from "@/components/sections/home/resources";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import CTAFooter from "@/components/sections/home/cta-footer";
+import OurPortofolioSection from "@/components/sections/home/portofolio";
 
 export default function Home() {
   return (
@@ -69,6 +70,7 @@ export default function Home() {
         <OurServicesSection />
         <ResourcesSection />
         <OurProductsSection />
+        <OurPortofolioSection />
         <CTAFooter />
       </main>
       <footer className="container mx-auto text-center p-4 text-sm">
@@ -91,8 +93,8 @@ export default function Home() {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(720 983) rotate(90) scale(555.047 624.107)"
             >
-              <stop stop-color="#FDBB58" stop-opacity="0.22" />
-              <stop offset="1" stop-color="#FDBB58" stop-opacity="0" />
+              <stop stopColor="#FDBB58" stopOpacity="0.22" />
+              <stop offset="1" stopColor="#FDBB58" stopOpacity="0" />
             </radialGradient>
           </defs>
         </svg>
@@ -112,7 +114,7 @@ export default function Home() {
           <rect
             width="100%"
             height="100%"
-            stroke-width="0"
+            strokeWidth="0"
             fill="url(#hero)"
           ></rect>
         </svg>
